@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pizza Spend Map</title>
+<meta name="description" content="Where in East London and Essex a new pizza takeaway has the most demand, spend and room. Every MSOA scored from public data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha384-c6Rcwz4e4CITMbu/NBmnNS8yN2sC3cUElMEMfP3vqqKFp7GOYaaBBCqmaWBjmkjb" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css" integrity="sha384-pmjIAcz2bAn0xukfxADbZIb3t8oRT9Sv0rvO+BR5Csr6Dhqq+nZs59P0pPKQJkEV" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css" integrity="sha384-wgw+aLYNQ7dlhK47ZPK7FRACiq7ROZwgFNg0m04avm4CaXS+Z9Y7nMu8yNjBKYC+" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="style.css?v=7f148992">
+</head>
+<body>
+<header class="masthead">
+  <p class="kicker">Site selection research</p>
+  <h1>Pizza Spend Map</h1>
+  <p class="dek">Every neighbourhood (MSOA) in seven East London boroughs and eight Essex districts, scored on how much takeaway pizza demand it has, how much people can spend and how few pizza places already serve it.</p>
+</header>
+
+<main>
+  <section class="controls" aria-label="Map controls">
+    <div class="group">
+      <span class="label" id="layer-label">Colour the map by</span>
+      <div class="seg" role="radiogroup" aria-labelledby="layer-label">
+        <button role="radio" aria-checked="true" data-layer="opportunity">Opportunity</button>
+        <button role="radio" aria-checked="false" data-layer="demand">Demand</button>
+        <button role="radio" aria-checked="false" data-layer="spend">Spend</button>
+        <button role="radio" aria-checked="false" data-layer="gap">Gap</button>
+      </div>
+    </div>
+    <div class="group">
+      <label class="label" for="area">Borough or district</label>
+      <select id="area"><option value="">All in view</option></select>
+      <label class="check"><input type="checkbox" id="inner"> Include inner London (Newham, Tower Hamlets, Hackney)</label>
+    </div>
+    <div class="group weights">
+      <span class="label">Weights <button class="link" id="reset" type="button">reset</button></span>
+      <label>Demand <input type="range" id="w-demand" min="0" max="100" value="40"> <output id="o-demand">40</output></label>
+      <label>Spend <input type="range" id="w-spend" min="0" max="100" value="30"> <output id="o-spend">30</output></label>
+      <label>Gap <input type="range" id="w-gap" min="0" max="100" value="30"> <output id="o-gap">30</output></label>
+    </div>
+    <div class="group">
+      <span class="label">Layers</span>
+      <label class="check"><input type="checkbox" id="pins" checked> Pizza outlets <i class="dot chain"></i>chain <i class="dot indie"></i>independent</label>
+      <label class="check"><input type="checkbox" id="zones" checked> School zones <i class="dot zone-local"></i>local rule <i class="dot zone-nat"></i>national only</label>
+    </div>
+  </section>
+
+  <section class="stage">
+    <div id="map" role="region" aria-label="Map of opportunity scores"></div>
+    <aside id="panel" aria-live="polite"></aside>
+  </section>
+
+  <section class="ranking" aria-labelledby="top-h">
+    <h2 id="top-h">Top 20 areas</h2>
+    <p class="note" id="top-note"></p>
+    <div class="table-wrap">
+      <table id="top">
+        <thead><tr><th>#</th><th>Area</th><th>Borough or district</th><th class="num">Score</th><th class="num">Population</th><th class="num">Net income</th><th class="num">Outlets</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="method" aria-labelledby="m-h">
+    <h2 id="m-h">How the score works</h2>
+    <p><b>Demand</b> is the average percentile, across all 347 areas, of population density plus the shares of people aged 16 to 34, full-time students, households with children, one-person households, flats and renters.</p>
+    <p><b>Spend</b> is 60% the percentile of net household income (adjusted by the regional takeaway multiplier from ONS Family Spending) plus 40% the inverse percentile of income deprivation.</p>
+    <p><b>Gap</b> is 100 minus the percentile of pizza outlets per 1,000 residents. Outlets with a hygiene rating of 0 to 2 count as half a competitor. Outlets just over an area boundary are not counted, so treat border areas with care.</p>
+    <p><b>Opportunity</b> is the weighted average of the three. The sliders change the weights; the sub-scores stay fixed.</p>
+    <p><b>School zones</b> are shown, not scored. Since August 2026 national policy (NPPF HC5) says new takeaways should be refused within about 400 m of schools unless the site is in a designated town centre. Red rings mark councils with their own rule as well. Only secondary and all-through schools are drawn, but the London Plan and some councils also cover primary schools. Check a site against the council's policy before you sign a lease.</p>
+  </section>
+</main>
+
+<footer>
+  <h2>Data sources</h2>
+  <ul id="sources"></ul>
+  <p class="note">Built <span id="built"></span>. No data from Just Eat, Deliveroo, Uber Eats or Google Maps is used. Source code on <a href="https://github.com/AnkurNapa/pizza-spend-map">GitHub</a>.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha384-NElt3Op+9NBMCYaef5HxeJmU4Xeard/Lku8ek6hoPTvYkQPh3zLIrJP7KiRocsxO" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" integrity="sha384-eXVCORTRlv4FUUgS/xmOyr66XBVraen8ATNLMESp92FKXLAMiKkerixTiBvXriZr" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>window.ASSET_V = {data: "data.geojson?v=a397d550", comps: "competitors.json?v=9737b333", schools: "schools.json?v=3b1b507a"};</script>
+<script src="app.js?v=fa88bf1c"></script>
+</body>
+</html>

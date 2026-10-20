@@ -1,0 +1,7 @@
+data/raw/census/*.zip
+data/raw/imd/
+data/raw/schools/
+data/raw/family_spending/
+.gstack/
+__pycache__/
+.DS_Store
