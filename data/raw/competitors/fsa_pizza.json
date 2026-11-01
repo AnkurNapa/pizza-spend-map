@@ -576,22 +576,6 @@
 }
 },
 {
-"FHRSID": 1079214,
-"BusinessName": "Samiz Chicken & Pizza",
-"BusinessType": "Takeaway/sandwich shop",
-"AddressLine1": "891 Romford Road",
-"AddressLine2": "Manor Park",
-"AddressLine3": "London",
-"PostCode": "E12 5JY",
-"RatingValue": "5",
-"RatingDate": "2024-08-26T00:00:00",
-"LocalAuthorityName": "Newham",
-"geocode": {
-"longitude": "0.054929",
-"latitude": "51.553504"
-}
-},
-{
 "FHRSID": 1281529,
 "BusinessName": "E12 Chicken And Pizza",
 "BusinessType": "Takeaway/sandwich shop",
@@ -637,6 +621,22 @@
 "geocode": {
 "longitude": "0.0107086",
 "latitude": "51.5409711"
+}
+},
+{
+"FHRSID": 1079214,
+"BusinessName": "Samiz Chicken & Pizza",
+"BusinessType": "Takeaway/sandwich shop",
+"AddressLine1": "891 Romford Road",
+"AddressLine2": "Manor Park",
+"AddressLine3": "London",
+"PostCode": "E12 5JY",
+"RatingValue": "3",
+"RatingDate": "2026-09-17T00:00:00",
+"LocalAuthorityName": "Newham",
+"geocode": {
+"longitude": "0.054929",
+"latitude": "51.553504"
 }
 },
 {
@@ -1008,6 +1008,22 @@
 }
 },
 {
+"FHRSID": 654235,
+"BusinessName": "Domino's Pizza",
+"BusinessType": "Restaurant/Cafe/Canteen",
+"AddressLine1": "Domino's Pizza",
+"AddressLine2": "269 Bethnal Green Road",
+"AddressLine3": "London",
+"PostCode": "E2 6AH",
+"RatingValue": "5",
+"RatingDate": "2025-04-11T00:00:00",
+"LocalAuthorityName": "Tower Hamlets",
+"geocode": {
+"longitude": "-0.0659743",
+"latitude": "51.5265502"
+}
+},
+{
 "FHRSID": 92512,
 "BusinessName": "Domino's Pizza",
 "BusinessType": "Takeaway/sandwich shop",
@@ -1048,27 +1064,11 @@
 "AddressLine3": "London",
 "PostCode": "E14 8JA",
 "RatingValue": "5",
-"RatingDate": "2024-04-10T00:00:00",
+"RatingDate": "2026-09-30T00:00:00",
 "LocalAuthorityName": "Tower Hamlets",
 "geocode": {
 "longitude": "-0.0283081",
 "latitude": "51.5114357"
-}
-},
-{
-"FHRSID": 654235,
-"BusinessName": "Domino's Pizza",
-"BusinessType": "Restaurant/Cafe/Canteen",
-"AddressLine1": "Domino's Pizza",
-"AddressLine2": "269 Bethnal Green Road",
-"AddressLine3": "London",
-"PostCode": "E2 6AH",
-"RatingValue": "5",
-"RatingDate": "2025-04-11T00:00:00",
-"LocalAuthorityName": "Tower Hamlets",
-"geocode": {
-"longitude": "-0.0659743",
-"latitude": "51.5265502"
 }
 },
 {
@@ -1080,7 +1080,7 @@
 "AddressLine3": "",
 "PostCode": "E2 0",
 "RatingValue": "5",
-"RatingDate": "2024-05-14T00:00:00",
+"RatingDate": "2026-10-13T00:00:00",
 "LocalAuthorityName": "Tower Hamlets",
 "geocode": {
 "longitude": null,
@@ -1128,7 +1128,7 @@
 "AddressLine3": "London",
 "PostCode": "E14 4AF",
 "RatingValue": "5",
-"RatingDate": "2024-11-21T00:00:00",
+"RatingDate": "2026-10-05T00:00:00",
 "LocalAuthorityName": "Tower Hamlets",
 "geocode": {
 "longitude": null,
@@ -1240,7 +1240,7 @@
 "AddressLine3": "London",
 "PostCode": "E3 5LU",
 "RatingValue": "5",
-"RatingDate": "2024-11-04T00:00:00",
+"RatingDate": "2026-10-20T00:00:00",
 "LocalAuthorityName": "Tower Hamlets",
 "geocode": {
 "longitude": "-0.0349398",
@@ -1376,6 +1376,22 @@
 }
 },
 {
+"FHRSID": 1783161,
+"BusinessName": "Bad Boy Pizza",
+"BusinessType": "Takeaway/sandwich shop",
+"AddressLine1": "Bad Boy Pizza Bethnal Limited",
+"AddressLine2": "419 Bethnal Green Road",
+"AddressLine3": "London",
+"PostCode": "E2 0AN",
+"RatingValue": "5",
+"RatingDate": "2025-09-24T00:00:00",
+"LocalAuthorityName": "Tower Hamlets",
+"geocode": {
+"longitude": "-0.059242",
+"latitude": "51.5272212"
+}
+},
+{
 "FHRSID": 84995,
 "BusinessName": "Papa John's Pizza",
 "BusinessType": "Restaurant/Cafe/Canteen",
@@ -1408,22 +1424,6 @@
 }
 },
 {
-"FHRSID": 99260,
-"BusinessName": "Pizza Hut Delivery",
-"BusinessType": "Takeaway/sandwich shop",
-"AddressLine1": "Pizza Hut Delivery",
-"AddressLine2": "105-195a East India Dock Road",
-"AddressLine3": "London",
-"PostCode": "E14 0EA",
-"RatingValue": "5",
-"RatingDate": "2024-10-01T00:00:00",
-"LocalAuthorityName": "Tower Hamlets",
-"geocode": {
-"longitude": "-0.0124711",
-"latitude": "51.5113941"
-}
-},
-{
 "FHRSID": 67817,
 "BusinessName": "Pizza Hut Delivery",
 "BusinessType": "Takeaway/sandwich shop",
@@ -1440,19 +1440,19 @@
 }
 },
 {
-"FHRSID": 1176541,
-"BusinessName": "The Pizza Room",
-"BusinessType": "Restaurant/Cafe/Canteen",
-"AddressLine1": "The Pizza Room",
-"AddressLine2": "167 East India Dock Road",
+"FHRSID": 99260,
+"BusinessName": "Pizza Hut Delivery",
+"BusinessType": "Takeaway/sandwich shop",
+"AddressLine1": "Pizza Hut Delivery",
+"AddressLine2": "105-195a East India Dock Road",
 "AddressLine3": "London",
 "PostCode": "E14 0EA",
 "RatingValue": "5",
-"RatingDate": "2025-07-10T00:00:00",
+"RatingDate": "2024-10-01T00:00:00",
 "LocalAuthorityName": "Tower Hamlets",
 "geocode": {
-"longitude": "-0.0150297",
-"latitude": "51.5113781"
+"longitude": "-0.0124711",
+"latitude": "51.5113941"
 }
 },
 {
@@ -1469,6 +1469,22 @@
 "geocode": {
 "longitude": "-0.0346306",
 "latitude": "51.525489"
+}
+},
+{
+"FHRSID": 1176541,
+"BusinessName": "The Pizza Room",
+"BusinessType": "Restaurant/Cafe/Canteen",
+"AddressLine1": "The Pizza Room",
+"AddressLine2": "167 East India Dock Road",
+"AddressLine3": "London",
+"PostCode": "E14 0EA",
+"RatingValue": "5",
+"RatingDate": "2025-07-10T00:00:00",
+"LocalAuthorityName": "Tower Hamlets",
+"geocode": {
+"longitude": "-0.0150297",
+"latitude": "51.5113781"
 }
 },
 {
@@ -1536,22 +1552,6 @@
 }
 },
 {
-"FHRSID": 1437587,
-"BusinessName": "Detroit Pizza London",
-"BusinessType": "Restaurant/Cafe/Canteen",
-"AddressLine1": "",
-"AddressLine2": "75 Commercial Street",
-"AddressLine3": "London",
-"PostCode": "E1 6BD",
-"RatingValue": "2",
-"RatingDate": "2025-12-02T00:00:00",
-"LocalAuthorityName": "Tower Hamlets",
-"geocode": {
-"longitude": "-0.073921",
-"latitude": "51.517499"
-}
-},
-{
 "FHRSID": 40618,
 "BusinessName": "Pizza Go Go",
 "BusinessType": "Takeaway/sandwich shop",
@@ -1565,22 +1565,6 @@
 "geocode": {
 "longitude": "-0.0338708",
 "latitude": "51.5231477"
-}
-},
-{
-"FHRSID": 78164,
-"BusinessName": "Hamlet Pizza, Swift Pizza, Tower Hamlets Pizza",
-"BusinessType": "Takeaway/sandwich shop",
-"AddressLine1": "",
-"AddressLine2": "479 Cambridge Heath Road",
-"AddressLine3": "London",
-"PostCode": "E2 9BU",
-"RatingValue": "AwaitingInspection",
-"RatingDate": "1901-01-01T00:00:00",
-"LocalAuthorityName": "Tower Hamlets",
-"geocode": {
-"longitude": "-0.057534",
-"latitude": "51.533379"
 }
 },
 {
@@ -1645,22 +1629,6 @@
 "geocode": {
 "longitude": "-0.071429",
 "latitude": "51.51815"
-}
-},
-{
-"FHRSID": 1783161,
-"BusinessName": "Bad Boy Pizza Bethnal Limited",
-"BusinessType": "Restaurant/Cafe/Canteen",
-"AddressLine1": "Bad Boy Pizza Bethnal Limited",
-"AddressLine2": "419 Bethnal Green Road",
-"AddressLine3": "London",
-"PostCode": "E2 0AN",
-"RatingValue": "5",
-"RatingDate": "2025-09-24T00:00:00",
-"LocalAuthorityName": "Tower Hamlets",
-"geocode": {
-"longitude": "-0.059242",
-"latitude": "51.5272212"
 }
 },
 {
@@ -2272,6 +2240,22 @@
 }
 },
 {
+"FHRSID": 1931101,
+"BusinessName": "East West Pizza",
+"BusinessType": "Restaurant/Cafe/Canteen",
+"AddressLine1": "",
+"AddressLine2": "42-44 Kingsland Road London",
+"AddressLine3": "Hackney",
+"PostCode": "E2 8DA",
+"RatingValue": "4",
+"RatingDate": "2026-10-03T00:00:00",
+"LocalAuthorityName": "Hackney",
+"geocode": {
+"longitude": "-0.0776977",
+"latitude": "51.5281999"
+}
+},
+{
 "FHRSID": 1910930,
 "BusinessName": "Pizza Social Club",
 "BusinessType": "Takeaway/sandwich shop",
@@ -2333,22 +2317,6 @@
 "geocode": {
 "longitude": "-0.0799161",
 "latitude": "51.5337218"
-}
-},
-{
-"FHRSID": 1931101,
-"BusinessName": "East West Pizza",
-"BusinessType": "Restaurant/Cafe/Canteen",
-"AddressLine1": "",
-"AddressLine2": "42-44 Kingsland Road London",
-"AddressLine3": "Hackney",
-"PostCode": "E2 8DA",
-"RatingValue": "AwaitingInspection",
-"RatingDate": "1901-01-01T00:00:00",
-"LocalAuthorityName": "Hackney",
-"geocode": {
-"longitude": "-0.0776977",
-"latitude": "51.5281999"
 }
 },
 {
@@ -2480,22 +2448,6 @@
 }
 },
 {
-"FHRSID": 1584380,
-"BusinessName": "ROMEOS ,PIZZA & BURGER",
-"BusinessType": "Restaurant/Cafe/Canteen",
-"AddressLine1": "",
-"AddressLine2": "209 WELL STREET",
-"AddressLine3": "Hackney",
-"PostCode": "E9 6QU",
-"RatingValue": "5",
-"RatingDate": "2024-11-28T00:00:00",
-"LocalAuthorityName": "Hackney",
-"geocode": {
-"longitude": "-0.0475543",
-"latitude": "51.5436275"
-}
-},
-{
 "FHRSID": 1008217,
 "BusinessName": "Camino Shoreditch",
 "BusinessType": "Restaurant/Cafe/Canteen",
@@ -2509,22 +2461,6 @@
 "geocode": {
 "longitude": "-0.0807222",
 "latitude": "51.5221358"
-}
-},
-{
-"FHRSID": 515444,
-"BusinessName": "Domino's Pizza",
-"BusinessType": "Takeaway/sandwich shop",
-"AddressLine1": "814 High Road Leyton",
-"AddressLine2": "",
-"AddressLine3": "Leyton",
-"PostCode": "E10 6AE",
-"RatingValue": "5",
-"RatingDate": "2025-09-16T00:00:00",
-"LocalAuthorityName": "Waltham Forest",
-"geocode": {
-"longitude": "-0.0111412",
-"latitude": "51.5746525"
 }
 },
 {
@@ -2557,6 +2493,22 @@
 "geocode": {
 "longitude": "-0.0093566",
 "latitude": "51.560333"
+}
+},
+{
+"FHRSID": 515444,
+"BusinessName": "Domino's Pizza",
+"BusinessType": "Takeaway/sandwich shop",
+"AddressLine1": "814 High Road Leyton",
+"AddressLine2": "",
+"AddressLine3": "Leyton",
+"PostCode": "E10 6AE",
+"RatingValue": "5",
+"RatingDate": "2025-09-16T00:00:00",
+"LocalAuthorityName": "Waltham Forest",
+"geocode": {
+"longitude": "-0.0111412",
+"latitude": "51.5746525"
 }
 },
 {
@@ -3280,22 +3232,6 @@
 }
 },
 {
-"FHRSID": 1279644,
-"BusinessName": "Crave Pizza",
-"BusinessType": "Takeaway/sandwich shop",
-"AddressLine1": "",
-"AddressLine2": "345 Ley Street",
-"AddressLine3": "",
-"PostCode": "IG1 4AA",
-"RatingValue": "4",
-"RatingDate": "2025-06-17T00:00:00",
-"LocalAuthorityName": "Redbridge",
-"geocode": {
-"longitude": "0.0829526",
-"latitude": "51.5645389"
-}
-},
-{
 "FHRSID": 1045239,
 "BusinessName": "Chef's Pizza",
 "BusinessType": "Restaurant/Cafe/Canteen",
@@ -3671,8 +3607,8 @@
 "AddressLine2": "151 Beehive Lane",
 "AddressLine3": "",
 "PostCode": "IG4 5DX",
-"RatingValue": "5",
-"RatingDate": "2024-11-06T00:00:00",
+"RatingValue": "1",
+"RatingDate": "2026-09-23T00:00:00",
 "LocalAuthorityName": "Redbridge",
 "geocode": {
 "longitude": "0.058925",
@@ -4768,22 +4704,6 @@
 }
 },
 {
-"FHRSID": 1731603,
-"BusinessName": "Papa Johns",
-"BusinessType": "Takeaway/sandwich shop",
-"AddressLine1": "97 North Street",
-"AddressLine2": "Romford",
-"AddressLine3": "",
-"PostCode": "RM1 1EU",
-"RatingValue": "5",
-"RatingDate": "2026-01-16T00:00:00",
-"LocalAuthorityName": "Havering",
-"geocode": {
-"longitude": "0.177426",
-"latitude": "51.580926"
-}
-},
-{
 "FHRSID": 1813939,
 "BusinessName": "Papa Johns",
 "BusinessType": "Restaurant/Cafe/Canteen",
@@ -4797,6 +4717,22 @@
 "geocode": {
 "longitude": "0.248387",
 "latitude": "51.554074"
+}
+},
+{
+"FHRSID": 1731603,
+"BusinessName": "Papa Johns",
+"BusinessType": "Takeaway/sandwich shop",
+"AddressLine1": "97 North Street",
+"AddressLine2": "Romford",
+"AddressLine3": "",
+"PostCode": "RM1 1EU",
+"RatingValue": "5",
+"RatingDate": "2026-01-16T00:00:00",
+"LocalAuthorityName": "Havering",
+"geocode": {
+"longitude": "0.177426",
+"latitude": "51.580926"
 }
 },
 {
@@ -4816,19 +4752,19 @@
 }
 },
 {
-"FHRSID": 1025959,
+"FHRSID": 1354869,
 "BusinessName": "Domino's Pizza",
 "BusinessType": "Takeaway/sandwich shop",
-"AddressLine1": "1 Derwent Parade",
-"AddressLine2": "South Ockendon",
+"AddressLine1": "13 Grover Walk",
+"AddressLine2": "Corringham",
 "AddressLine3": "Essex",
-"PostCode": "RM15 5EF",
+"PostCode": "SS17 7LP",
 "RatingValue": "5",
-"RatingDate": "2025-08-02T00:00:00",
+"RatingDate": "2026-03-15T00:00:00",
 "LocalAuthorityName": "Thurrock",
 "geocode": {
-"longitude": "0.28273",
-"latitude": "51.509894"
+"longitude": "0.446655",
+"latitude": "51.524728"
 }
 },
 {
@@ -4848,19 +4784,19 @@
 }
 },
 {
-"FHRSID": 1354869,
+"FHRSID": 1025959,
 "BusinessName": "Domino's Pizza",
 "BusinessType": "Takeaway/sandwich shop",
-"AddressLine1": "13 Grover Walk",
-"AddressLine2": "Corringham",
+"AddressLine1": "1 Derwent Parade",
+"AddressLine2": "South Ockendon",
 "AddressLine3": "Essex",
-"PostCode": "SS17 7LP",
+"PostCode": "RM15 5EF",
 "RatingValue": "5",
-"RatingDate": "2026-03-15T00:00:00",
+"RatingDate": "2025-08-02T00:00:00",
 "LocalAuthorityName": "Thurrock",
 "geocode": {
-"longitude": "0.446655",
-"latitude": "51.524728"
+"longitude": "0.28273",
+"latitude": "51.509894"
 }
 },
 {
@@ -5304,7 +5240,7 @@
 "AddressLine3": "Basildon",
 "PostCode": "SS14 3HZ",
 "RatingValue": "5",
-"RatingDate": "2024-11-06T00:00:00",
+"RatingDate": "2026-10-20T00:00:00",
 "LocalAuthorityName": "Basildon",
 "geocode": {
 "longitude": "0.479527",
@@ -5649,7 +5585,7 @@
 },
 {
 "FHRSID": 1905433,
-"BusinessName": "Tasty Fried Chicken & Pizza also trading as Chicken & Kebab House / Pizza Hub / Smash & Grab /  Fire & Feast Kitchen / Basildon Spice & Grill Co",
+"BusinessName": "Tasty Fried Chicken & Pizza also trading as Chicken & Kebab House  / Pizza Hub / Smash & Grab /  Fire & Feast Kitchen / Basildon Spice & Grill Co",
 "BusinessType": "Takeaway/sandwich shop",
 "AddressLine1": "",
 "AddressLine2": "9 Chalvedon Square",
@@ -5661,22 +5597,6 @@
 "geocode": {
 "longitude": "0.500667",
 "latitude": "51.57271"
-}
-},
-{
-"FHRSID": 1723902,
-"BusinessName": "Volcano Wood Fire \u2013 Sourdough Pizzas",
-"BusinessType": "Mobile caterer",
-"AddressLine1": "",
-"AddressLine2": "",
-"AddressLine3": "",
-"PostCode": "SS14",
-"RatingValue": "5",
-"RatingDate": "2026-08-25T00:00:00",
-"LocalAuthorityName": "Basildon",
-"geocode": {
-"longitude": null,
-"latitude": null
 }
 },
 {
@@ -6544,22 +6464,6 @@
 }
 },
 {
-"FHRSID": 872866,
-"BusinessName": "Domino's Pizza",
-"BusinessType": "Takeaway/sandwich shop",
-"AddressLine1": "31 London Road",
-"AddressLine2": "Harlow",
-"AddressLine3": "Essex",
-"PostCode": "CM17 0DA",
-"RatingValue": "5",
-"RatingDate": "2026-04-10T00:00:00",
-"LocalAuthorityName": "Harlow",
-"geocode": {
-"longitude": "0.1329358",
-"latitude": "51.7822118"
-}
-},
-{
 "FHRSID": 1005922,
 "BusinessName": "Domino's Pizza",
 "BusinessType": "Takeaway/sandwich shop",
@@ -6573,6 +6477,22 @@
 "geocode": {
 "longitude": "0.091959",
 "latitude": "51.753186"
+}
+},
+{
+"FHRSID": 872866,
+"BusinessName": "Domino's Pizza",
+"BusinessType": "Takeaway/sandwich shop",
+"AddressLine1": "31 London Road",
+"AddressLine2": "Harlow",
+"AddressLine3": "Essex",
+"PostCode": "CM17 0DA",
+"RatingValue": "5",
+"RatingDate": "2026-04-10T00:00:00",
+"LocalAuthorityName": "Harlow",
+"geocode": {
+"longitude": "0.1329358",
+"latitude": "51.7822118"
 }
 },
 {
@@ -6856,7 +6776,7 @@
 "AddressLine3": "Essex",
 "PostCode": "IG7 5NT",
 "RatingValue": "5",
-"RatingDate": "2024-10-24T00:00:00",
+"RatingDate": "2026-10-15T00:00:00",
 "LocalAuthorityName": "Epping Forest",
 "geocode": {
 "longitude": "0.08586",

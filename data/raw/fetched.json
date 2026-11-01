@@ -1,10 +1,10 @@
 {
  "census/census2021-ts001-msoa.csv": "2026-10-20",
- "competitors/fsa_pizza.json": "2026-10-20",
- "competitors/osm_pizza.json": "2026-10-20",
- "imd/File_7_IoD2025.csv": "2026-10-20",
+ "competitors/fsa_pizza.json": "2026-11-01",
+ "competitors/osm_pizza.json": "2026-11-01",
+ "imd/File_7_IoD2025.csv": "2026-11-01",
  "income/saie_fye2023.xlsx": "2026-10-20",
  "lsoa_msoa_lookup.json": "2026-10-20",
  "msoa_boundaries.geojson": "2026-10-20",
- "schools/edubase_latest.csv": "2026-10-20"
+ "schools/edubase_latest.csv": "2026-11-01"
 }
